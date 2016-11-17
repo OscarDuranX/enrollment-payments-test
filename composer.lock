@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "6116f3e6b1b0bdeae643867ff28824ee",
+    "content-hash": "768d0f6572dde13ec37b632af7c28607",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -983,6 +983,59 @@
                 "uuid"
             ],
             "time": "2016-10-02 15:51:17"
+        },
+        {
+            "name": "scool/foundation",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acacha-scool/foundation.git",
+                "reference": "a9aea12de9c1d0ab5539b49321ea8d6b90206e53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acacha-scool/foundation/zipball/a9aea12de9c1d0ab5539b49321ea8d6b90206e53",
+                "reference": "a9aea12de9c1d0ab5539b49321ea8d6b90206e53",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.3",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Scool\\Foundation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com",
+                    "homepage": "https://github.com/acacha",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Foundation classes for Scool",
+            "homepage": "https://github.com/acacha-scool/foundation",
+            "keywords": [
+                "Scool",
+                "foundation"
+            ],
+            "time": "2016-11-17 20:03:50"
         },
         {
             "name": "swiftmailer/swiftmailer",

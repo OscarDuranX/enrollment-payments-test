@@ -6,7 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "scool/foundation": "^0.1.0",
+        "acachascool/enrollment_payments": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
