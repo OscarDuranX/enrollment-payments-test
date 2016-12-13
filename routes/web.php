@@ -11,6 +11,10 @@
 |
 */
 
+//use scool\enrollment_payments\Stats\Stats;
+//use scool\enrollment_payments\Model\Study;
+//use scool\enrollment_payments\Models\Course;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,7 +25,16 @@ Route::group(['middleware' => 'auth'], function () {
     });
 });
 
+Route::get('/test', function () {
+    DB::listen(function ($event) {
+        dump($event->sql);
+        dump($event->bindings);
+    });
+//    $studies = Study::all();
+//    $courses = Course::all();
+//    return $courses;
+    Stats::of(scool\enrollment_payments\Model\Payment::class);
+    return Stats::total();
+});
 
-//Route::group(['middleware' => 'auth'], function () {
-//    Route::Resource('studis', 'StudisController');
-//});
+
