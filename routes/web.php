@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/profile/tokens', function () {
+        return view('tokens');
+    });
+});
+
+
+//Route::group(['middleware' => 'auth'], function () {
+//    Route::Resource('studis', 'StudisController');
+//});

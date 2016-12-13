@@ -169,6 +169,8 @@ return [
 
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
+//        \App\Providers\StudyRepository::class,
+
         /*
          * Application Service Providers...
          */
