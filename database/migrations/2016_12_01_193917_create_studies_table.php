@@ -15,7 +15,7 @@ class CreateStudiesTable extends Migration
 	{
 		Schema::create('studies', function(Blueprint $table) {
             $table->increments('id');
-
+            $table->string('state')->nullable();
             $table->timestamps();
 		});
 	}

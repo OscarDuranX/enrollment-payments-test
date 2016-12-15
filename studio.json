@@ -1,6 +1,7 @@
 {
     "version": 2,
     "paths": [
-        "../enrollment_payments"
+        "../enrollment_payments",
+        "../stateful-eloquent/"
     ]
 }
