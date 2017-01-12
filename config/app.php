@@ -170,6 +170,7 @@ return [
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
 //        \App\Providers\StudyRepository::class,
+        Spatie\Menu\Laravel\MenuServiceProvider::class,
 
         /*
          * Application Service Providers...
