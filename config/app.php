@@ -171,6 +171,7 @@ return [
 
 //        \App\Providers\StudyRepository::class,
         Spatie\Menu\Laravel\MenuServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -16,7 +16,8 @@
         "acacha/names":"dev-master",
         "acacha/periods": "dev-master",
         "spatie/laravel-menu": "^2.0",
-        "acacha/stateful-eloquent": "dev-master"
+        "acacha/stateful-eloquent": "dev-master",
+        "spatie/laravel-permission": "^1.6"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

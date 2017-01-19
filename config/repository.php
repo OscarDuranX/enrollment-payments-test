@@ -220,7 +220,7 @@ return [
     */
     'generator'  => [
         'basePath'      => base_path().'/vendor/acachascool/enrollment_payments/src',
-        'databasePath'      => base_path().'/vendor/acachascool/enrollment_payments/database',
+        'databasePath'  => base_path().'/vendor/acachascool/enrollment_payments/database',
         'rootNamespace' => 'scool\\enrollment_payments\\',
         'stubsOverridePath' => base_path(),
         'paths'         => [
@@ -233,6 +233,7 @@ return [
             'controllers'  => 'Http/Controllers',
             'provider'     => 'paymentServiceProvider',
             'criteria'     => 'Criteria',
+            'requests'     => 'Http/Requests'
 
         ]
     ]
