@@ -172,6 +172,10 @@ return [
 //        \App\Providers\StudyRepository::class,
         Spatie\Menu\Laravel\MenuServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
+
+//        scool\enrollment_payments\Providers\paymentServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -247,6 +251,7 @@ return [
          */
         'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         #llum_aliases
 
     ],

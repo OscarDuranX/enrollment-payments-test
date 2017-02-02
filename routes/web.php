@@ -37,4 +37,7 @@ Route::get('/test', function () {
     return Stats::total();
 });
 
+Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
+
 
