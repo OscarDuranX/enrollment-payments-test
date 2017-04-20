@@ -27,7 +27,7 @@ return [
     | Package path
     |
     */
-    'path' => '/vendor/acachascool/enrollment_payments',
+    'path' => '/vendor/acachascool/enrollment-payments',
     /*
     |--------------------------------------------------------------------------
     | Package src path
@@ -36,5 +36,5 @@ return [
     | Package src path
     |
     */
-    'src_path' => base_path() . '/vendor/acachascool/enrollment_payments/src',
+    'src_path' => base_path() . '/vendor/acachascool/enrollment-payments/src',
 ];

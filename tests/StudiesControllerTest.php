@@ -61,7 +61,7 @@ class StudiesControllerTest extends TestCase
 
     public function testIndex()
     {
-//        $studies = factory(\Scool\enrollment_payments\Model\Study::class,50)->create();
+//        $studies = factory(\Scool\enrollment-payments\Model\Study::class,50)->create();
 
         //Face 1: Preparació --> isolation/mocking
         $this->login();

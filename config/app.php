@@ -175,7 +175,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class,
 
-        scool\enrollment_payments\Providers\paymentServiceProvider::class,
+        scool\enrollment_payments\Providers\PaymentServiceProvider::class,
 
         /*
          * Application Service Providers...

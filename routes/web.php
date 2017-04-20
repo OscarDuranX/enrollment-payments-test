@@ -11,9 +11,9 @@
 |
 */
 
-//use scool\enrollment_payments\Stats\Stats;
-//use scool\enrollment_payments\Model\Study;
-//use scool\enrollment_payments\Models\Course;
+//use scool\enrollment-payments\Stats\Stats;
+//use scool\enrollment-payments\Model\Study;
+//use scool\enrollment-payments\Models\Course;
 
 Route::get('/', function () {
     return view('welcome');

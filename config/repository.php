@@ -219,9 +219,9 @@ return [
     |
     */
     'generator'  => [
-        'basePath'      => base_path().'/vendor/acachascool/enrollment_payments/src',
-        'databasePath'  => base_path().'/vendor/acachascool/enrollment_payments/database',
-        'rootNamespace' => 'scool\\enrollment_payments\\',
+        'basePath'      => base_path().'/vendor/acachascool/enrollment-payments/src',
+        'databasePath'  => base_path().'/vendor/acachascool/enrollment-payments/database',
+        'rootNamespace' => 'scool\\enrollment-payments\\',
         'stubsOverridePath' => base_path(),
         'paths'         => [
             'models'       => 'Model',

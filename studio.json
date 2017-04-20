@@ -1,7 +1,7 @@
 {
     "version": 2,
     "paths": [
-        "../enrollment_payments",
+        "../enrollment-payments",
         "../stateful-eloquent",
         "../l5-repository"
     ]
